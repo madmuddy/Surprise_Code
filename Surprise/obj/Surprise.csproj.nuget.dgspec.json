@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mmamm\\source\\repos\\Surprise\\Surprise\\Surprise.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mmamm\\source\\repos\\Surprise\\Surprise\\Surprise.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mmamm\\source\\repos\\Surprise\\Surprise\\Surprise.csproj",
+        "projectName": "Surprise",
+        "projectPath": "C:\\Users\\mmamm\\source\\repos\\Surprise\\Surprise\\Surprise.csproj",
+        "packagesPath": "C:\\Users\\mmamm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mmamm\\source\\repos\\Surprise\\Surprise\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\mmamm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Neo4j.Driver": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Neo4jClient": {
+              "target": "Package",
+              "version": "[4.1.18, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
