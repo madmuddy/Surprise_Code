@@ -15,9 +15,9 @@ namespace Surprise
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public partial class MainActivity : AppCompatActivity
     {
-        // [ Server Dredentials ]
-        static string database = "https://contactsdumper-default-rtdb.asia-southeast1.firebasedatabase.app/";
-        static string database_secret = "oMMNZ6HwIQdjic9aE5JonkXTnQZyMbg9ifcVoZ9L";
+        // [ Server Credentials ]
+        static string database = ""; // Google Firebase Database Link
+        static string database_secret = ""; // Databse Secret for Authentication
 
         // [ Temporary Paths ]
         string tempContactsPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData), "contactsPath.txt");
